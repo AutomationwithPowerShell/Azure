@@ -1,3 +1,5 @@
 # Azure AVD/ Citrix DaaS
 AzureFS_Fslogix_profileCleanup.ps1 Script can be used for Native AVD/CitrixDaaS Environment.
-if you want to use the script for OnPrem Environment then 
+OnPrem_Fslogix.ps1 can be used to for OnPrem Environment. 
+Please change the varaible as per your Enviornment
+Run it first in lower Environment 
