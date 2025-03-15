@@ -2,7 +2,7 @@
 *************************************************************
  .SYNOPSIS
 
-# Created on: 31.03.2023 Version: 1.0
+# Created on: 10.03.2025 Version: 1.1
 # Created by: Naveen
 # Description: This script is use to delete the Azure User Profile who has not accesed it from 60 days
 # Call by : Manual or by Scheduled Task via SCCM#
