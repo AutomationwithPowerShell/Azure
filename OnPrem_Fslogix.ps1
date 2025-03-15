@@ -73,7 +73,7 @@ if(Test-Path "$(($folder).FullName)"){
 Write-host "$(($folder).FullName)" -ForegroundColor Cyan
 
 #robocopy \\10.0.0.0\CTXSupport\Naveen\RoboCopy   "$(($folder).FullName)" /purge 
-"$Prof  :  $(($folder).Name)  : RoboDelete" |Out-File \\10.0.0.0\Citrix\Auto\Azure\Azure_fileShare_User_ProfileClenup\Share4_robocopy_xenApp.csv -Append
+"$Prof  :  $(($folder).Name)  : RoboDelete" |Out-File \\10.0.0.0\Citrix\Auto\Azure\Azure_fileShare_User_ProfileClenup\Share4_robocopy_profile.csv -Append
 #Remove-Item "$prof\$(($folder).Name)" -Recurse -Force -ErrorAction SilentlyContinue 
 
 }
