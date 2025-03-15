@@ -2,7 +2,7 @@
 *************************************************************
  .SYNOPSIS
 
-# Created on: 23.03.2023 Version: 1.0
+# Created on: 10.03.2025 Version: 1.1
 # Created by: Naveen
 # Key Contributor:
 # Description: This script is use to delete the NetApp User Profile who has not accesed it from 60 days
