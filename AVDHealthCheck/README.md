@@ -2,7 +2,7 @@
 # 🔍 Azure AVD Hostpool & FileShare HealthCheck Script
 
 **Author:** Naveen Arya 
-**Version:** 1.0  
+**Version:** 1.4  
 **Created On:** 09-Jan-2023  
 **Last Updated:** 14-Mar-2023  
 
