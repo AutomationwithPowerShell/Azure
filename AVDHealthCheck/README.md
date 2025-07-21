@@ -74,6 +74,6 @@ Configure email section inside script.
 
 ## 📧 Support
 
-- **Created By:** [Naveen Ram](mailto:Naveenarya198@outlook.com)  
-- **Support:** [Citrix Support](mailto:Naveenarya198@outlook.com)  
+- **Created By:** [Naveen Arya](mailto:Naveenarya198@outlook.com)  
+- **Support:** [Naveen Arya](mailto:Naveenarya198@outlook.com)  
 - **Azure Portal:** [https://portal.azure.com](https://portal.azure.com)
