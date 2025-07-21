@@ -1,7 +1,7 @@
 
-# 🔍 Azure WVD Hostpool & FileShare HealthCheck Script
+# 🔍 Azure AVD Hostpool & FileShare HealthCheck Script
 
-**Author:** Naveen Jogga Ram  
+**Author:** Naveen Arya 
 **Version:** 1.0  
 **Created On:** 09-Jan-2023  
 **Last Updated:** 14-Mar-2023  
@@ -9,7 +9,7 @@
 ## 📘 Overview
 
 This PowerShell script performs a **comprehensive health check** of:
-- **Azure WVD (Windows Virtual Desktop) Hostpool Virtual Machines**
+- **Azure AVD (Azure Virtual Desktop) Hostpool Virtual Machines**
 - **Azure Fileshare & NetApp File Shares**
 
 It generates a **detailed HTML report** containing VM states, drain mode info, and storage health summaries — which is optionally sent to a **Citrix distribution list via email**.
@@ -32,7 +32,7 @@ It generates a **detailed HTML report** containing VM states, drain mode info, a
   - `Microsoft.RDInfra.RDPowershell`
   - `Az.NetAppFiles`
 - Access to Azure subscription with:
-  - **Reader or Contributor role** on WVD Host Pools
+  - **Reader or Contributor role or SMB fileShare contributor/Elevated Contributor A Access** on WVD Host Pools
   - **Storage Account Contributor** role for Fileshares
 - FileShare path for logs/reports (`\\filesharepath\Automation\AzureHealthCheck`)
 - Scheduled Task (optional) via SCCM or Task Scheduler
@@ -74,6 +74,6 @@ Configure email section inside script.
 
 ## 📧 Support
 
-- **Created By:** [Naveen Ram](mailto:Naveen.Ram@bankfab.com)  
-- **Support:** [Citrix Support](mailto:CitrixSupport@bankfab.com)  
+- **Created By:** [Naveen Ram](mailto:Naveenarya198@outlook.com)  
+- **Support:** [Citrix Support](mailto:Naveenarya198@outlook.com)  
 - **Azure Portal:** [https://portal.azure.com](https://portal.azure.com)
